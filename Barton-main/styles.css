@@ -2329,7 +2329,7 @@ ul {
 .city-card:hover {
     background: var(--bg-white);
     border-color: var(--accent);
-    transform: translateY(-3px) rotate(-1deg);
+    transform: translateY(-3px);
     box-shadow: 0 18px 34px rgba(249, 115, 22, .14)
 }
 
