@@ -1,3 +1,4 @@
 {
-  "outputDirectory": "Barton-main"
+  "cleanUrls": true,
+  "trailingSlash": false
 }
