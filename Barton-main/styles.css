@@ -399,6 +399,7 @@ ul {
         linear-gradient(rgba(255, 255, 255, .08) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 255, 255, .08) 1px, transparent 1px);
     background-size: 56px 56px;
+    -webkit-mask-image: linear-gradient(to bottom, #000, transparent 78%);
     mask-image: linear-gradient(to bottom, #000, transparent 78%);
     position: absolute;
     inset: 0;
@@ -443,7 +444,7 @@ ul {
     margin-bottom: 20px;
     font-size: clamp(36px, 7.24vw, 84px);
     font-weight: 900;
-    line-height: .96;
+    line-height: 1.03;
     text-wrap: balance
 }
 
@@ -2328,7 +2329,7 @@ ul {
 .city-card:hover {
     background: var(--bg-white);
     border-color: var(--accent);
-    transform: translateY(-3px) rotate(-.4deg);
+    transform: translateY(-3px) rotate(-1deg);
     box-shadow: 0 18px 34px rgba(249, 115, 22, .14)
 }
 
