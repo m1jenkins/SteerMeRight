@@ -32,7 +32,7 @@ new_content = """        <div class="why-promo__inner">
                     <p class="why-promo__col-desc">Without an expert negotiator on your side, you risk overpaying by thousands.</p>
                 </div>
             </div>
-            <p class="why-promo__closing">Don't guarantee yourself a stressful ordeal. Let Drive Right handle the headaches so you can just enjoy the thrill of your new ride.</p>
+            <p class="why-promo__closing">Don't guarantee yourself a stressful ordeal. Let Steer Me Right handle the headaches so you can just enjoy the thrill of your new ride.</p>
         </div>"""
 
 pattern = re.compile(r'<div class="why-promo__inner">.*?</div>\s*</section>', re.DOTALL)
