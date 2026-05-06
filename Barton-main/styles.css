@@ -36,7 +36,7 @@
     --serif: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     --section-pad: 80px;
     --section-pad-mob: 48px;
-    --radius: 999px;
+    --radius: 9999px;
     --radius-sm: 14px;
     --radius-lg: 28px
 }
@@ -247,8 +247,8 @@ ul {
 }
 
 .nav.scrolled {
-    -webkit-backdrop-filter: blur(16px);
     backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     box-shadow: 0 12px 40px rgba(15, 23, 42, .08);
     background: rgba(255, 248, 241, .88)
 }
@@ -399,8 +399,8 @@ ul {
         linear-gradient(rgba(255, 255, 255, .08) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 255, 255, .08) 1px, transparent 1px);
     background-size: 56px 56px;
-    -webkit-mask-image: linear-gradient(to bottom, #000, transparent 78%);
     mask-image: linear-gradient(to bottom, #000, transparent 78%);
+    -webkit-mask-image: linear-gradient(to bottom, #000, transparent 78%);
     position: absolute;
     inset: 0;
     z-index: 1
@@ -444,7 +444,7 @@ ul {
     margin-bottom: 20px;
     font-size: clamp(36px, 7.24vw, 84px);
     font-weight: 900;
-    line-height: 1.03;
+    line-height: 1.1;
     text-wrap: balance
 }
 
